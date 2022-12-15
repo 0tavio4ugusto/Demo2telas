@@ -1,0 +1,177 @@
+* {
+  font-size: 10px;
+  text-align: center;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: #181818;
+}
+
+.mainBox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #181818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainBox .extraMoney {
+  height: 90%;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  position: relative;
+  width: 20%;
+  background-color: #8758FF;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  box-shadow: 9px -9px 9px 12px rgb(20, 20, 20);
+}
+.mainBox .extraMoney .title {
+  width: 100%;
+  font-size: 50px;
+  font-weight: 500;
+  color: #F2F2F2;
+}
+.mainBox .extraMoney .itemsSpent {
+  display: table-row;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #8758FF;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.mainBox .extraMoney .itemsSpent .title {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.mainBox .extraMoney .itemsSpent .item {
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F2F2F2;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  box-shadow: 2px -2px 3px 4px #774ede;
+}
+.mainBox .moneySpent {
+  height: 90%;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  position: relative;
+  width: 60%;
+  background-color: #8758FF;
+  box-shadow: 9px -9px 9px 12px rgb(20, 20, 20);
+  justify-content: center;
+  align-items: center;
+}
+.mainBox .moneySpent .title {
+  width: 100%;
+  font-size: 50px;
+  font-weight: 500;
+  color: #F2F2F2;
+}
+.mainBox .itemsSpent {
+  display: table-row;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #8758FF;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.mainBox .itemsSpent .title {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.mainBox .itemsSpent .item {
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F2F2F2;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  box-shadow: 2px -2px 3px 4px #774ede;
+}
+
+.income {
+  height: 90%;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  position: relative;
+  width: 20%;
+  background-color: #8758FF;
+  box-shadow: 9px -9px 9px 12px rgb(20, 20, 20);
+}
+.income .title {
+  width: 100%;
+  font-size: 50px;
+  font-weight: 500;
+  color: #F2F2F2;
+}
+.income .itemsSpent {
+  display: table-row;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #8758FF;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.income .itemsSpent .title {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.income .itemsSpent .item {
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F2F2F2;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  box-shadow: 2px -2px 3px 4px #774ede;
+}/*# sourceMappingURL=input.css.map */

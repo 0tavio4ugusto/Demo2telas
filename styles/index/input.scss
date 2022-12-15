@@ -1,0 +1,208 @@
+$backgroundColor: #181818;
+$brightColor: #F2F2F2;
+$primaryColor: #5CB8E4;
+$background: #8758FF;
+
+*{
+    font-size: 10px;
+    text-align: center;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: $backgroundColor;
+    
+} 
+
+.mainBox{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: $backgroundColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .extraMoney{
+        height: 90%;
+        border-radius: 30px;
+        padding: 20px;
+        margin: 20px ;
+        display: flex;
+        position: relative;
+        width: 20%;
+        background-color: $background;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        box-shadow: 9px -9px 9px 12px rgb(20, 20, 20);
+
+        .title{
+            width: 100%;
+            font-size: 50px;
+            font-weight: 500;
+            color: $brightColor;
+    }
+
+    .itemsSpent{
+        display: table-row;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;            
+        width: 100%;
+        height: 100%;
+        background-color: $background;
+        border-radius: 30px ;
+        -webkit-border-radius: 30px ;
+        -moz-border-radius: 30px ;
+        -ms-border-radius: 30px ;
+        -o-border-radius: 30px ;
+
+        .title{
+            display: flex;
+            position: relative;
+            justify-content: center;
+        }
+
+        
+
+        .item{
+            padding: 30px;
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: $brightColor;
+            border-radius: 30px;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            -ms-border-radius: 30px;
+            -o-border-radius: 30px;
+            box-shadow: 2px -2px 3px 4px #774ede;
+
+        }
+}
+
+        
+}
+    .moneySpent{
+        height: 90%;
+        border-radius: 30px;
+        padding: 20px;
+        margin: 20px ;
+        display: flex;
+        position: relative;
+        width: 60%;
+        background-color: $background;
+        box-shadow: 9px -9px 9px 12px rgb(20, 20, 20);
+        justify-content: center;
+        align-items: center;
+
+        .title{
+            width: 100%;
+            font-size: 50px;
+            font-weight: 500;
+            color: $brightColor;    
+        }
+
+        }
+
+        .itemsSpent{
+            display: table-row;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;            
+            width: 100%;
+            height: 100%;
+            background-color: $background;
+            border-radius: 30px ;
+            -webkit-border-radius: 30px ;
+            -moz-border-radius: 30px ;
+            -ms-border-radius: 30px ;
+            -o-border-radius: 30px ;
+
+            .title{
+                display: flex;
+                position: relative;
+                justify-content: center;
+            }
+
+            
+
+            .item{
+                padding: 30px;
+                margin: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: $brightColor;
+                border-radius: 30px;
+                -webkit-border-radius: 30px;
+                -moz-border-radius: 30px;
+                -ms-border-radius: 30px;
+                -o-border-radius: 30px;
+                box-shadow: 2px -2px 3px 4px #774ede;
+}
+}
+    }
+    .income{
+        height: 90%;
+
+        border-radius: 30px;
+        padding: 20px;
+        margin: 20px ;
+        display: flex;
+        position: relative;
+        width: 20%;
+        background-color:   $background;
+        box-shadow: 9px -9px 9px 12px rgb(20, 20, 20);
+
+        .title{
+            width: 100%;
+            font-size: 50px;
+            font-weight: 500;
+            color: $brightColor;
+    }
+
+    .itemsSpent{
+        display: table-row;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;            
+        width: 100%;
+        height: 100%;
+        background-color: $background;
+        border-radius: 30px ;
+        -webkit-border-radius: 30px ;
+        -moz-border-radius: 30px ;
+        -ms-border-radius: 30px ;
+        -o-border-radius: 30px ;
+
+        .title{
+            display: flex;
+            position: relative;
+            justify-content: center;
+        }
+
+        
+
+        .item{
+            padding: 30px;
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: $brightColor;
+            border-radius: 30px;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            -ms-border-radius: 30px;
+            -o-border-radius: 30px;
+            box-shadow: 2px -2px 3px 4px #774ede;
+
+        }
+    }
+
+}

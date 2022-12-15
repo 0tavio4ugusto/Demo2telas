@@ -1,0 +1,101 @@
+$backgroundColor: #181818;
+$brightColor: #F2F2F2;
+$primaryColor: #5CB8E4;
+
+body{
+    margin: 0%;
+    padding: 0%;
+} 
+
+.loginBody{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: $backgroundColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .demo{
+        margin-top: 15px;
+        color: $brightColor;
+
+        a:link {
+            color: $brightColor;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        a:visited {
+            color: $brightColor;
+            text-decoration: none;
+        }
+        a:hover {
+            color: $brightColor;
+            text-decoration: none;
+        }
+        a:active {
+            color: $brightColor;
+            text-decoration: none;
+        }
+    }
+
+    .formBox{
+        padding: 30px ;
+        margin-top: 110px;
+
+        h4{
+            color: $brightColor;
+        }
+
+        .formGroup{
+            padding: 2px;
+        }
+
+        .row{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+
+            .login{
+                padding: 10px;
+                background-color: $primaryColor ;
+                color: $brightColor;
+                font-weight: bold;
+                margin-left: 2px;
+                text-decoration: none;
+            }
+            .help{
+                margin-top: 5px;
+                font-size: 15px;
+                color: $brightColor;
+            }
+          
+        }
+
+  
+    }
+
+    .loginBox{
+        border-radius: 20px;
+        width: 53rem;
+        background: #8758FF;
+        height: 27rem;
+        box-shadow: 9px -9px 9px 12px rgb(20, 20, 20);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+
+        .imageBox{
+            img{
+                margin-top: 40px;
+                margin-left: 25px;
+                height: 22rem;
+            }
+        }
+  
+    }
+
+   
+}
+

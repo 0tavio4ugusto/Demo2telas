@@ -1,0 +1,79 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.loginBody {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #181818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginBody .demo {
+  margin-top: 15px;
+  color: #F2F2F2;
+}
+.loginBody .demo a:link {
+  color: #F2F2F2;
+  text-decoration: none;
+  font-weight: 700;
+}
+.loginBody .demo a:visited {
+  color: #F2F2F2;
+  text-decoration: none;
+}
+.loginBody .demo a:hover {
+  color: #F2F2F2;
+  text-decoration: none;
+}
+.loginBody .demo a:active {
+  color: #F2F2F2;
+  text-decoration: none;
+}
+.loginBody .formBox {
+  padding: 30px;
+  margin-top: 110px;
+}
+.loginBody .formBox h4 {
+  color: #F2F2F2;
+}
+.loginBody .formBox .formGroup {
+  padding: 2px;
+}
+.loginBody .formBox .row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.loginBody .formBox .row .login {
+  padding: 10px;
+  background-color: #5CB8E4;
+  color: #F2F2F2;
+  font-weight: bold;
+  margin-left: 2px;
+  text-decoration: none;
+}
+.loginBody .formBox .row .help {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #F2F2F2;
+}
+.loginBody .loginBox {
+  border-radius: 20px;
+  width: 53rem;
+  background: #8758FF;
+  height: 27rem;
+  box-shadow: 9px -9px 9px 12px rgb(20, 20, 20);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.loginBody .loginBox .imageBox img {
+  margin-top: 40px;
+  margin-left: 25px;
+  height: 22rem;
+}/*# sourceMappingURL=input.css.map */
